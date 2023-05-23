@@ -1,0 +1,14 @@
+<div class="product-card">
+  <img [src]="product.photo" alt="{{ product.name }}" class="img-card">
+  <div>
+    <h3 class="title-card">{{ product.name }}</h3>
+    <p class="description-card">{{ product.description }}</p>
+    <p class="price-card">{{ product.price }} <span>R$</span></p>
+  </div>  
+  <div class="d-flex flex-column">
+    <a class="change-product" [routerLink]="['/products/change', product.id]">
+      Alterar produto
+    </a>
+    <a class="remove-product" (click)="removeProduct()">Excluir produto</a>
+  </div>  
+</div>

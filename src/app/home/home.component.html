@@ -1,0 +1,20 @@
+<div class="container mt-5 home">
+  <h1 class="text-center mb-3">Bem-vindo a Farmácia Eagle</h1>
+  <h2 class="mb-3">Veja nossos produtos</h2>
+  <div class="search-container d-flex gap-3">
+    <input type="text" placeholder="Pesquisar produtos" [(ngModel)]="searchQuery" (input)="searchProducts()" />
+    <button (click)="searchProducts()">Pesquisar</button>
+  </div>
+
+  <div class="products-container" *ngIf="!loading && filteredProducts.length > 0; else emptyOrLoading">
+    <div *ngFor="let product of filteredProducts">
+      <app-card-product [product]="product"></app-card-product>
+    </div>
+  </div>
+
+  <ng-template #emptyOrLoading>
+    <p class="mt-4" *ngIf="loading">Carregando produtos...</p>
+    <p class="mt-4" *ngIf="!loading">Não há produtos disponíveis. Caso queira adicionar manualmente, vá em "Gerenciar produtos" e clique em "Adicionar produto". Caso queira carregar produtos gravados, clique no botão abaixo.</p>
+    <button (click)="loadProducts()" class="loadProducts mx-auto" *ngIf="!loading">Carregar produtos gravados</button>
+  </ng-template>
+</div>

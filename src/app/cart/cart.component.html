@@ -1,0 +1,22 @@
+<div class="container">
+  <h1 class="text-center mt-5 mb-3">Carrinho</h1>
+  <ng-container *ngIf="(cartItems$ | async) as cartItems; else emptyCart">    
+    <div *ngFor="let item of cartItems" class="cart-item">
+      <div class="cart-item-info">
+        <img [src]="item.photo" alt="Imagem do produto" class="cart-item-image">
+        <div>
+          <p class="cart-item-name">{{ item.name }}</p>
+          <p class="cart-item-price">Preço: {{ item.price | number:'1.2-2' }} R$</p>
+          <p class="cart-item-quantity">Quantidade: {{ item.quantity }}</p>
+        </div>
+      </div>
+      <button class="btn btn-danger btn-remove" (click)="removeFromCart(item.id)">Remove</button>
+    </div>
+    <button class="btn btn-primary" (click)="buy()" *ngIf="cartItems.length > 0">Comprar</button>
+    <p class="cart-total">Total: {{ calculateTotalPrice(cartItems) | number:'1.2-2' }} R$</p>
+  </ng-container>
+
+  <ng-template #emptyCart>
+    <p>O carrinho está vazio.</p>
+  </ng-template>
+</div>

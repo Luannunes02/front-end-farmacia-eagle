@@ -1,0 +1,24 @@
+<div class="container">
+    <h1>Editar Produto</h1>
+    <form (submit)="updateProduct()" class="d-flex flex-column justify-content-center col col-lg-4">
+      <label for="productName">Título do Produto</label>
+      <input type="text" placeholder="Nome" [(ngModel)]="product.name" name="productName">
+  
+      <div class="image-upload-container">
+        <label for="imageUpload">Imagem do Produto</label>
+        <input type="file" (change)="onFileSelected($event)" accept="image/*" id="imageUpload">
+        <label for="imageUpload" class="image-label">
+          <img [src]="selectedImage ? selectedImage : product.photo" alt="Imagem do produto">
+        </label>
+      </div>
+  
+      <label for="productDescription">Descrição do Produto</label>
+      <input type="text" placeholder="Descrição" [(ngModel)]="product.description" name="productDescription">
+  
+      <label for="productPrice">Preço do Produto</label>
+      <input type="number" placeholder="Preço" [(ngModel)]="product.price" name="productPrice">
+  
+      <button type="submit">Atualizar</button>
+    </form>
+  </div>
+  

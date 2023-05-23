@@ -1,0 +1,22 @@
+.container {
+    min-height: 85vh;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 2rem;
+
+    &:hover {
+        background-color: #0056b3;
+    }
+
+}

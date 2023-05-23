@@ -1,0 +1,13 @@
+<div *ngIf="product" class="productIdContainer container mt-5">
+  <img [src]="product.photo" alt="{{ product.name }}" class="img-product">
+  <h2>{{ product.name }}</h2>
+  <p>{{ product.description }}</p>
+  <h5>Aproveite que está por apenas</h5>
+  <div class="d-flex align-items-center justify-center gap-5">
+    <p>R$ {{ product.price }}</p>
+    <input type="number" min="1" [(ngModel)]="quantity" name="quantity">
+  </div>
+  <button class="button mt-4" (click)="addToCart()">
+    Adicionar ao carrinho
+  </button>
+</div>

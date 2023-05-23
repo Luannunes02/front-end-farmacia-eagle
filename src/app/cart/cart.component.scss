@@ -1,0 +1,40 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    min-height: 85vh;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  
+    .cart-item-image {
+      width: 80px;
+      height: 80px;
+      margin-right: 20px;
+    }
+  
+    .cart-item-info {
+      display: flex;
+      align-items: center;
+    }
+  
+    .cart-item-name {
+      font-weight: bold;
+    }
+  
+    .cart-item-price {
+      margin-bottom: 5px;
+    }
+  
+    .btn-remove {
+      margin-left: auto;
+    }
+  }
+  
+  .cart-total {
+    font-weight: bold;
+    text-align: right;
+  }
+  

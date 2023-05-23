@@ -1,0 +1,100 @@
+{
+    "productsJSON": [
+        {
+            "name": "Biolagrima 15ml",
+            "description": "Melhor solução para o olho, um custo e benefício.",
+            "price": 15.00,
+            "photo": "https://images-americanas.b2w.io/produtos/4649231719/imagens/biolagrima-solucao-para-lentes-15-ml-teuto/4649231719_1_xlarge.jpg"
+        },
+        {
+            "name": "Cinegripe 20 cap",
+            "description": "Cimegripe® é indicado no tratamento dos sintomas de gripes e resfriados.",
+            "price": 20.00,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/aba/cimegripe-com-20-capsulas-01b.jpg"
+        },
+        {
+            "name": "Dipirona Monoidratada 1G Com 10 Comprimidos Genérico Prati Donaduzzi",
+            "description": "Este medicamento é indicado como analgésico (para dor) e antitérmico (para febre).",
+            "price": 7.00,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/9e6/dipirona-monoidratada-1g-com-10-comprimidos-generico-prati-donaduzzi-ed2.jpg"
+        },
+        {
+            "name": "Carvedilol 25mg Com 30 Comprimidos Biosintética",
+            "description": "O carvedilol é um medicamento usado para tratar insuficiência cardíaca congestiva (insuficiência do coração), angina do peito (dor no peito de origem cardíaca) e hipertensão arterial (pressão alta).",
+            "price": 11.99,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/catalog/product/cache/5/image/600x/9df78eab33525d08d6e5fb8d27136e95/medicamentos/drogariaminasbrasil_generico_tarja_vermelha.jpg"
+        },
+        {
+            "name": "Aparelho de Pressão Omron",
+            "description": "Monitor de Pressão Arterial Automático de Braço Omron Hem 7122.",
+            "price": 215.00,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/95c/aparelho-de-pressao-omron-ref-hem7122-bae.jpg"
+        },
+        {
+            "name": "Vaporizador e Umidificador Vaporglug 3 Litros - Glug",
+            "description": "O vapor liberado é livre de bactérias e não emite a chamada poeira branca decorrentes dos sais minerais em suspensão na água.",
+            "price": 107.45,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/853/vaporizador-e-umidificador-vaporglug-3-litros-glug-07c.jpg"
+        },
+        {
+            "name": "Complexo B 250mg Com 60 Cápsulas Borg",
+            "description": "PARA O TRATAMENTO DE CARÊNCIA MÚLTIPLA DE VITAMINAS DO COMPLEXO B E SUAS MANIFESTAÇÕES. TEM AÇÃO REGULADORA DAS CARÊNCIAS QUANDO JÁ EXISTEM MANIFESTAÇÕES CLÍNICAS CAUSADAS PELA DEFICIÊNCIA VITAMÍNICA.",
+            "price": 58.50,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/445/complexo-b-250mg-com-60-capsulas-borg-9c6.jpg"
+        },
+        {
+            "name": "Vitamina D3 10.000 UI 60 Cápsulas",
+            "description": "A vitamina D, ou colecalciferol, é um hormônio esteroide, cuja principal função consiste na regulação da homeostase do cálcio, formação e reabsorção óssea.",
+            "price": 30.00,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/1e7/vitamina-d3-10-000-ui-60-capsulas-108.jpg"
+        },
+        {
+            "name": "Top Whey 3w Max Titanium Sabor Chocolate 1,8 Kg",
+            "description": "A ingestão de proteína é muito importante tanto para quem quer ganhar massa muscular, quanto para quem quer apenas tonificar.",
+            "price": 115.00,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/938/top-whey-3w-max-titanium-sabor-chocolate-1-8-kg-1aa.jpg"
+        },
+        {
+            "name": "Nutren JÚnior Sabor Baunilha 400g",
+            "description": "NUTREN JUNIOR é uma nutrição completa e balanceada especialmente desenvolvida para atender às necessidades de crianças com 1-10 anos de idade.",
+            "price": 52.50,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/b8a/nutren-junior-sabor-baunilha-400g-423.jpg"
+        },
+        {
+            "name": "Lacday 10.000 Fcc Alu C/ 30 Tabletes Dispersíveis",
+            "description": "Enzima digestiva-Lactase e não contem glúten",
+            "price": 70.00,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/c25/lacday-10-000-fcc-alu-c-30-tabletes-dispersiveis-1b4.jpg"
+        },
+        {
+            "name": "Vitanol-A 0,05 % Creme 30 G",
+            "description": "Vitanol-A® creme é indicado somente para uso tópico, em adultos e pacientes acima de 12 anos.",
+            "price": 41.33,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/catalog/product/cache/5/image/600x/9df78eab33525d08d6e5fb8d27136e95/medicamentos/drogariaminasbrasil_tarja_vermelha.jpg"
+        },
+        {
+            "name": "Cicatricure Gel 30G",
+            "description": "A alta efetividade de Cicatricure Gel para suavizar os tipos de cicatrizes da sua pele, acontece através dos ingredientes da sua fórmula exclusiva.",
+            "price": 20.90,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/3a4/cicatricure-gel-30g-006.jpg"
+        },
+        {
+            "name": "Lactuliv Sabor Ameixa Xarope C/ 120ml",
+            "description": "Lactuliv está indicado para tratar os sintomas da constipação intestinal (prisão de ventre) e para a prevenção e o tratamento de encefalopatia hepática, incluindo as etapas de pré-coma e coma hepático.",
+            "price": 22.80,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/ea1/lactuliv-sabor-ameixa-xarope-c-120ml-09d.jpg"
+        },
+        {
+            "name": "Colágeno Hidrolisado Max Titanium Colagen Com 100 Cápsulas",
+            "description": "No corpo humano, o colágeno desempenha várias funções, como, por exemplo, unindo e fortalecendo os tecidos.",
+            "price": 32.99,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/e41/colageno-hidrolisado-max-titanium-colagen-com-100-capsulas-fa9.jpg"
+        },
+        {
+            "name": "Dorflex Com 50 Comprimidos",
+            "description": "Dorflex é indicado no alívio da dor associada a contraturas musculares, incluindo dor de cabeça tensional.",
+            "price": 19.99,
+            "photo": "https://www.drogariaminasbrasil.com.br/media/product/4bc/dorflex-com-50-comprimidos-f76.jpg"
+        }
+    ]
+}

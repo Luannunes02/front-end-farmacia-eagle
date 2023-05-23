@@ -1,0 +1,54 @@
+.navbar {
+    img {
+        width: 10rem;
+        margin-right: 5rem;
+        background-color: #acacac3a;
+        padding: 0.4rem 0.7rem;
+        border-radius: 5px;
+    }
+
+    ul {
+        gap: 2rem;
+
+        @media screen and (max-width: 767px) {
+            gap: 0;
+        }
+    }
+
+    .nav-link {
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+        border: none;
+        background: none;
+        transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+        transition-duration: 400ms;
+        transition-property: color;
+
+        &:focus,
+        &:hover {
+            color: #fff;
+        }
+
+        &:focus:after,
+        &:hover:after {
+            width: 100%;
+            left: 0%;
+        }
+
+        &:after {
+            content: "";
+            pointer-events: none;
+            bottom: -2px;
+            left: 50%;
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            background-color: #fff;
+            transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+            transition-duration: 400ms;
+            transition-property: width, left;
+        }
+    }
+
+}

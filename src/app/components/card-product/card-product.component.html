@@ -1,0 +1,9 @@
+<div class="product-card mt-4">
+  <img [src]="product.photo" alt="{{ product.name }}" class="img-card">
+  <h3 class="title-card">{{ product.name | slice:0:15 }}{{ product.description.length > 15 ? '...' : '' }}</h3>
+  <p class="description-card">{{ product.description | slice:0:40 }}{{ product.description.length > 40 ? '...' : '' }}</p>
+  <p class="price-card">{{ product.price }} <span>R$</span></p>
+  <button [routerLink]="['/product', product.id]">
+    <p>VER PRODUTO</p>
+  </button>
+</div>

@@ -1,0 +1,6 @@
+<div class="container">
+    <button routerLink="/products/add">Adicionar produto</button>
+    <div *ngFor="let product of products">
+        <app-card-control-product [product]="product" (productRemoved)="onProductRemoved($event)"></app-card-control-product>
+      </div>
+</div>
