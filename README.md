@@ -10,15 +10,14 @@
 
 <h2><strong> 📝 Descrição:</strong></h2>    
 
-Site que vendi para uma corretora de imóveis que tinha o objetivo de divulgar seus serviços e imóveis, desenvolvi o site fazendo um arquivo JSON para usar como API, o site está responsivo e com um design agrádavel e interativo. <br><br>
-<strong>Acesse o site e aproveite: https://regiane-corretora.vercel.app </strong>
+A aplicação FullStack consiste em uma farmácia online, o back-end foi feito com Laravel e MySQL e o front-end com Angular. <br><br>
 <br>
 <br>
 <h2><strong>🚀 Tecnologias usadas:</strong></h2>   
 
 <div style='display:inline_block;'>
-  <img align='center' alt='Angular' src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)'/>
-  <img align='center' alt='Typescript' src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)'/>
+  <img align='center' alt='Angular' src='https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white'/>
+  <img align='center' alt='Typescript' src='https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white'/>
   <img align='center' alt='Bootstrap' src='https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white'/>
   <img align='center' alt='Sass/scss' src='https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white'/>
 </div>
