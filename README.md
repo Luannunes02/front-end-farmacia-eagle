@@ -69,7 +69,7 @@ No diretório do projeto, você pode rodar:
 ### `npm start`
 
 Esse comando roda o app no modo de desenvolvimento.\
-Abra [http://localhost:3000](http://localhost:3000) para ver no seu navegador.
+Abra [http://localhost:4200](http://localhost:4200) para ver no seu navegador.
 
 A página ira recarregar novamente quando você fizer alguma alteração.\
 Você também pode ver erros de lint no console.
