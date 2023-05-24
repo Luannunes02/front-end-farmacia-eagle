@@ -29,11 +29,18 @@ export class ProductAddComponent {
   }
 
   addProduct() {
+    if(this.name === "" || this.description === "" || this.price === "") {
+      this.toastr.warning('Para adicionar um produto preencha pelo menos nome, descrição e preço', 'Aviso', {
+        positionClass: 'toast-top-right',
+      });
+      return;
+    } 
+
     const formData = new FormData();
     formData.append('name', this.name);
     formData.append('photo', this.selectedImage!);
     formData.append('description', this.description);
-    formData.append('price', this.price);
+    formData.append('price', this.price);     
 
     this.http.post('http://localhost:8000/api/products', formData)
       .subscribe(
@@ -43,7 +50,7 @@ export class ProductAddComponent {
           });
         },
         (error) => {
-          console.error('Error adding product', error);
+          console.error('Error adding product', error);                            
           this.toastr.error('Favor escolher uma imagem mais leve', 'Erro', {
             positionClass: 'toast-top-right',
           });

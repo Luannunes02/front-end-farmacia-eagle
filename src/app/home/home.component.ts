@@ -12,7 +12,8 @@ export class HomeComponent implements OnInit {
   products: any[] = [];
   filteredProducts: any[] = [];
   searchQuery: string = '';
-  loading: boolean = true; 
+  loading: boolean = true;
+  isLoadingProducts: boolean = false;
 
   constructor(private http: HttpClient, private toastr: ToastrService) { }
 
@@ -25,7 +26,7 @@ export class HomeComponent implements OnInit {
       (response) => {
         this.products = response;
         this.filteredProducts = response;
-        this.loading = false; 
+        this.loading = false;
       },
       (error) => {
         console.error(error);
@@ -34,7 +35,12 @@ export class HomeComponent implements OnInit {
     );
   }
 
-  loadProducts() {    
+  loadProducts() {
+    if (this.isLoadingProducts) {
+      return; // Retorna se a função já estiver em andamento
+    }
+    
+    this.isLoadingProducts = true;
     this.http.get<any>('/assets/products/products.json').subscribe(
       (response) => {
         const productsToAdd = response.productsJSON;
@@ -48,16 +54,19 @@ export class HomeComponent implements OnInit {
         forkJoin(postRequests).subscribe(
           () => {
             this.loadProductsFromAPI();
+            this.isLoadingProducts = false;
           },
           (error: any) => {
             console.error(error);
-            this.loading = false; 
+            this.loading = false;
+            this.isLoadingProducts = false;
           }
         );
       },
       (error) => {
         console.error(error);
-        this.loading = false; 
+        this.loading = false;
+        this.isLoadingProducts = false;
       }
     );
   }

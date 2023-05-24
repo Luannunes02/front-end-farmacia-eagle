@@ -15,6 +15,6 @@
   <ng-template #emptyOrLoading>
     <p class="mt-4" *ngIf="loading">Carregando produtos...</p>
     <p class="mt-4" *ngIf="!loading">Não há produtos disponíveis. Caso queira adicionar manualmente, vá em "Gerenciar produtos" e clique em "Adicionar produto". Caso queira carregar produtos gravados, clique no botão abaixo.</p>
-    <button (click)="loadProducts()" class="loadProducts mx-auto" *ngIf="!loading">Carregar produtos gravados</button>
+    <button (click)="loadProducts()" class="loadProducts mx-auto" *ngIf="!loading" [disabled]="isLoadingProducts">Carregar produtos gravados</button>
   </ng-template>
 </div>
