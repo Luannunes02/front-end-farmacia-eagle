@@ -10,7 +10,7 @@
 
 <h2><strong> 📝 Descrição:</strong></h2>    
 
-A aplicação FullStack consiste em uma farmácia online, o back-end foi feito com Laravel e MySQL e o front-end com Angular. <br><br>
+A aplicação FullStack consiste em uma farmácia online, o back-end foi feito com Laravel e MySQL e o front-end com Angular. <br>
 <br>
 <br>
 <h2><strong>🚀 Tecnologias usadas:</strong></h2>   
