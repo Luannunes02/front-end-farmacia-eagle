@@ -33,7 +33,9 @@ A aplicação FullStack consiste em uma farmácia online, o back-end foi feito c
 <br>
 
 <h2><strong> 🖼️ Funcionalidades do projeto:</strong></h2> 
+
 ![image](https://github.com/Luannunes02/front-end-farmacia-eagle/assets/105875989/f524a81f-4fd4-4388-b706-d8cbe46fe74b)
+
 O projeto é uma farmácia online, sendo possível ver produtos, comprar produtos, adicionar produtos e remover produtos. 
 Logo na tela inicial como o back-end vai ter sido recentemente criado, não vai ter produtos, fiz um arquivo json com vários produtos para caso você não queira acrescentar os produtos manualmente, pode apenas clicar em “Adicionar produtos” para que use o json que fiz para popular o banco de dados:
 
