@@ -34,8 +34,6 @@ A aplicação FullStack consiste em uma farmácia online, o back-end foi feito c
 
 <h2><strong> 🖼️ Funcionalidades do projeto:</strong></h2> 
 
-![image](https://github.com/Luannunes02/front-end-farmacia-eagle/assets/105875989/8181d285-0cc6-4c3c-b6d8-814a3a1792df)
-
 ![image](https://github.com/Luannunes02/front-end-farmacia-eagle/assets/105875989/f524a81f-4fd4-4388-b706-d8cbe46fe74b)
 
 O projeto é uma farmácia online, sendo possível ver produtos, comprar produtos, adicionar produtos e remover produtos. 
